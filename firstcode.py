@@ -36,5 +36,39 @@ line 3"""
 print(line)
 print(name[0])
 print( " lets use for loop\n")
-for character in line:
-    print(character)
+# for character in line:
+#     print(character)
+names2= "hriday,paras"
+print(names2[0:6])
+print(names2[0:-2])
+print(names2[-5:-2])
+nm = "Harry"
+print(nm[-4:-2])
+#print everything in upper case
+#strings are immutable
+print(name.upper())
+print(name.lower())
+d = "strip string!!!!"
+print(d.rstrip("!"))
+print(d.replace("strip", "Paras"))
+#split
+print(d.split(" "))
+print(d.capitalize())
+print(d.center(25))
+print(d.count("s"))
+print(d.endswith("!"))
+print(d.endswith("!", 7,9))
+str1 = """He's
+name is Dan. He is an
+honest man."""
+print(str1. find( "is"))
+str2 = "WelcomeToTheConsole"
+str3 = "\nWelcomeToTheConsole"
+print(str2.isalnum())
+print(str2.isalpha())
+print(str2.islower())
+print(str2.isspace())
+print(str2.isprintable())
+print(str3.isprintable()) #\n is not printable
+print(str1.swapcase())
+print(str1.title())
